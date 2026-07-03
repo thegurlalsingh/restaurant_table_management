@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: "https://restaurant-table-management-delta.vercel.app/",
+    origin: "https://restaurant-table-management-delta.vercel.app",
     credentials: true
 }));
 
